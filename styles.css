@@ -9,12 +9,23 @@
     width: 30%;
     border: 1px solid red;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    position: relative;
 
 }
 
 .backgroundImage img{
     height: 100%;
     width: 100%;
+}
+
+.title{
+    border: 1px solid red;
+    height: 150px;
+    width: 100%;
+    position: absolute;
+    top: 30%;
 }
 
 .text{
