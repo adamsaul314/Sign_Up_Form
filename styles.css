@@ -14,6 +14,22 @@
 .text{
     width: 70%;
     border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+}
+
+.message{
+    border: 1px solid red;
+    height: 33%;
+}
+.form{
+    border: 1px solid red;
+    height: 33%;
+
+}
+.buttons{
+    border: 1px solid red;
+    height: 33%;
 
 }
 
