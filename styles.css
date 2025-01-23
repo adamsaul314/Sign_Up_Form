@@ -54,7 +54,21 @@
 .message{
     border: 1px solid red;
     height: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 40px;
+    margin-bottom: 60px;
 }
+
+.message p {
+    font-size: 35px;
+}
+
+p.mainText{
+    margin-bottom: 30px;
+}
+
 .form{
     border: 1px solid red;
     height: 33%;
