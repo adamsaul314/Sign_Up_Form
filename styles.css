@@ -26,6 +26,22 @@
     width: 100%;
     position: absolute;
     top: 30%;
+    background: rgba(22, 24, 22, 0.466);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.title h1{
+    font-family: Norse;
+    font-size: 60px;
+    color: white;
+}
+
+.title img {
+    height: 100px;
+    width: 100px;
 }
 
 .text{
@@ -48,6 +64,11 @@
     border: 1px solid red;
     height: 33%;
 
+}
+
+@font-face {
+    font-family: Norse;
+    src: url(./assets/Norse-Bold.otf);
 }
 
 *{
