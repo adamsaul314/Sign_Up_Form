@@ -1,0 +1,22 @@
+#fullDiv {
+    border: 1px solid red;
+    display: flex;
+    height: 100vh;
+
+}
+
+.backgroundImage{
+    width: 30%;
+    border: 1px solid red;
+
+}
+
+.text{
+    width: 70%;
+    border: 1px solid red;
+
+}
+
+*{
+    margin: 0;
+}
